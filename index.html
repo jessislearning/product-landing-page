@@ -27,14 +27,15 @@
             <h1>Amenities</h1>
             <p>Meetings text here. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </section>
-        <section class="main-doc" id="Book">
+        <section class="booking-section" id="Book">
             <h1>Book Your Stay</h1>
             <p>Insert contact form here. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
                 <div class="div-guest-info"><p class="guest-info">Guest Information</p>
-                <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name here" required></label>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="input email (required)" required>
+                <label for="name" id="name-label">Name: </label>
+                <input class="guest-info-input" id="name" type="text" placeholder="Enter your name here" required>
+                <label for="email">Email: </label>
+                <input class="guest-info-input" type="email" id="email" name="email" placeholder="input email (required)" required>
                 </div>
                 <div class="div-check-in">
                 <label for="check-in-date">Check-in:</label>
@@ -42,7 +43,6 @@
                 <label for="nights">Nights:</label>
                 <input type="number" id="nights" name="booking" min="1" max="6" step="1" required>
                 </div>
-                <label for="submit-button">Submit</label>
                 <input type="submit" id="submit" >
             </form>
         </section> 
