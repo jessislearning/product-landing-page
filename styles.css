@@ -13,3 +13,20 @@ a {
 a:hover {
     background-color: lightgray;
 }
+
+.div-guest-info, .div-check-in {
+    display:block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: lightgray;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.guest-info-input {
+    width: 200px;
+}
