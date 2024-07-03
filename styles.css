@@ -1,0 +1,66 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #bfd9bf;
+}
+
+a {
+    text-decoration: none;
+    color: #36454F;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    background-color: #ccbfd9;
+}
+h1, h3 {
+    font-family: Garamond;
+}
+body {
+    color: #333;
+    letter-spacing: 0.3px;
+}
+
+.room-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: #d9bfcc;
+    max-width: 60vw;
+    border-radius: 10px;
+}
+
+.room-photos img {
+        
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+}
+
+.div-guest-info, .div-check-in {
+    display:block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #d9bfcc;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 1px;
+    max-width: fit-content;
+}
+
+.guest-info-input {
+    width: 200px;
+}
