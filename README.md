@@ -6,3 +6,4 @@ The project is a Product Landing Page, more information can be found here: https
 I will develop the index.html and styles.css files
 
 Our product is going to be staycation apartment
+(This is still in progress)
