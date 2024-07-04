@@ -7,20 +7,17 @@
     </head>
     <body>
         <header id="header">
-        <img src="https://little-castle.com/wp-content/uploads/2024/02/LittleCastleLogo-removebg-preview.png" id="header-img" width="80">
-        <div class="header-nav">
+        <img class="logo" src="https://little-castle.com/wp-content/uploads/2024/02/LittleCastleLogo-removebg-preview.png" id="header-img">
+        <h2>Book your Stay at the Residences</h2>
         <nav id="nav-bar">
-            <div class="nav-links">
             <a class="nav-link" href="#About">About</a>
-            <a class="nav-link" href="#Amenities">Meetings</a>
-            <a class="nav-link" href="#Book">Contact</a>
-            </div>
+            <a class="nav-link" href="#Amenities">Amenities</a>
+            <a class="nav-link" href="#Book">Book Your Stay</a>
         </nav>
-        </div>
         </header>
         <main>
         <section class="main-doc" id="About">
-            <h1>About</h1>
+            <div class="div-section"><h1>One Bedroom Unit at <i>The Residences at Commonwealth</i></h1></div>
             <p>Our one-bedroom unit at The Residences at Commonwealth is the perfect staycation spot for anyone looking for a green escape from the hustle and bustle of Metro Manila.</p>
             <p>The Residences at Commonwealth is a 4.4-hectare gated community, featuring green spaces nestled within several mid-rise buildings. Just outside the property are several restaurants, a mall (with a bowling alley and billiards), bars, spas, banks, and other businesses.</p>
             <div class="room-photos">
@@ -28,7 +25,7 @@
                 <img src="https://little-castle.com/wp-content/uploads/2024/07/PXL_20231231_020425741-scaled.jpg" width="200" alt="Bedroom with bathroom and balcony access">
                 <img src="https://little-castle.com/wp-content/uploads/2024/07/received_315822954553581.jpeg" width="200" alt="Full kitchen complete with cookware and dinnerware.">
             </div>
-            <h3>About your stay:</h3>
+            <h3>Your stay includes:</h3>
             <ul>
                 <li>One bedroom, one private bathroom, living room and dining area</li>
                 <li>Full kitchen - rice cooker, induction stove, microwave, rice cooker, refrigerator, coffee press, dinnerware, utensils, cookware</li>
@@ -43,7 +40,13 @@
             <p></p>
         </section>
         <section class="main-doc" id="Amenities">
-            <h1>Amenities</h1>
+            <div class="div-section"><h1>Amenities</h1></div>
+            <p>The Residences at Commonwealth offers wide green open spaces, and exclusive amenities. You can take it slow, or you can choose to be active. There's a little bit of something for everyone! </p>
+            <div class="video-container">
+                <div>
+                    <video width="500" controls="controls autoplay" id="video" src="https://little-castle.com/wp-content/uploads/2024/07/InShot_20240701_114818535.mp4" id="video" type="video/mp4" />
+                </div>
+            </div>
             <p>Inside the property, you can find:</p>
             <ul>
                 <li>The Clubhouse (Arts and Crafts Studio, Kindergarten Playroom, Gym, Rock and Roll Studio, Screening Room, Show Kitchen)</li>
@@ -51,28 +54,42 @@
                 <li>Basketball Court</li>
                 <li>Swimming Pool (Lap pool, Main pool, Kiddie Pool)</li>
                 <li>Playground</li>
+                <li>Convenience Stores, Laundry & Water Services, Hair Salon</li>
             </ul>
             <p>The Residences at Commonwealth is pet-friendly, with plenty of open spaces to walk and enjoy.</p>
         </section>
-        <section class="booking-section" id="Book">
-            <h1>Book Your Stay</h1>
-            <p>Insert contact form here. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <section class="main-doc" id="Book">
+            <div class="div-section"><h1>Book Your Stay</h1></div>
+            <p>We would love to have you over. To book your stay, please fill up the Guest Information Form below, and we will get in touch with you.</p>
+            <p>One night stay is priced at 2,500 PHP (including parking), for up to 2 adult guests. Additional fees for extra guests, pets or use of extra mattress. Discounted rates will be given for longer stays!</p>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-                <div class="div-guest-info"><p class="guest-info">Guest Information</p>
+                <p class="guest-info">Guest Information</p>
+                <div class="div-guest-info">
                 <label for="name" id="name-label">Name: </label>
                 <input class="guest-info-input" id="name" type="text" placeholder="Enter your name here" required>
+                </div>
+                <div class="div-guest-info">
                 <label for="email">Email: </label>
                 <input class="guest-info-input" type="email" id="email" name="email" placeholder="input email (required)" required>
                 </div>
                 <div class="div-check-in">
                 <label for="check-in-date">Check-in:</label>
                 <input type="date" id="check-in-date-label" name="booking" min="2024-08-05" max="2024-08-11" required>
+                </div>
+                <div class="div-check-in">
                 <label for="nights">Nights:</label>
                 <input type="number" id="nights" name="booking" min="1" max="6" step="1" required>
                 </div>
+                <div class="div-submit-button">
                 <input type="submit" id="submit" >
+                </div>
             </form>
         </section> 
         </main>
+        <footer>
+            <div class="div-footer">
+                <p class="footer-text">Jess is Learning 2024</p>
+            </div>
+        </footer>
     </body>
 </html>
