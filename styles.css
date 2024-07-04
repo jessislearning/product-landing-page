@@ -20,6 +20,10 @@ header {
     border-bottom: 1px solid black;
 }
 
+.logo {
+    height: 60px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -34,7 +38,7 @@ nav {
 a {
     text-decoration: none;
     color: #36454F;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 1rem;
 }
 
@@ -48,9 +52,9 @@ h1, h3 {
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 p, ul {
@@ -63,6 +67,7 @@ body {
     letter-spacing: 0.3px;
     margin: 0;
     padding-left: 0;
+    text-align: justify;
 }
 
 .main-doc:first-of-type {
@@ -170,4 +175,34 @@ input[type=submit] {
 .footer-text {
     font-size: 0.7rem;
     text-align:center;
+}
+
+@media (max-width: 750px) {
+    header {
+        height: 40px;
+    }
+
+    nav {
+        justify-content:flex-end;
+        gap: 5px;
+        padding-right: 5px;
+    }
+
+    a {
+        text-decoration: underline;
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .logo {
+        height: 30px
+    }
+
+    form {
+        width: 80%;
+    }
 }
