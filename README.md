@@ -3,6 +3,8 @@ Responsive Web Design Project for FreeCodeCamp (4 of 5)
 <br>
 You can access the page here: <br>
 🙌🏼 https://htmlpreview.github.io/?https://github.com/jessislearning/product-landing-page/blob/main/index.html<br>
+<br>or here:<br>
+🙌🏼 https://codepen.io/jessislearning/full/xxoxqEp<br>
 <br>
 🏩 Our product is a one-bedroom staycation unit located in Quezon City, Philippines <br>
 🤍 The page features an "About", "Amenities" and "Book your stay" sections<br>
