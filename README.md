@@ -16,8 +16,10 @@ A preview of the page is shown in the image below:<br>
 <br>
 <img width="1153" alt="image" src="https://github.com/jessislearning/product-landing-page/assets/161026755/c5e3b5cf-2ef8-4ee7-917d-b38e7013152c">
 <br>
-🙏🏼 To *actually* book the property, you can check it out here:
+<hr>
+<h1>🙏🏼 Book the actual property, you can check it out here:</h1>
 ✨ https://www.airbnb.com/rooms/980065787642817297?guests=1&adults=1&s=67&unique_share_id=c95bb7f2-458b-4208-af7f-e9fdb9c89d03 ✨<br>
-
+<hr>
+<br>
 For more information on the details of the freeCodeCamp project, please find it here: https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page<br><br>
 
