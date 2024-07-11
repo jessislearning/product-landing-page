@@ -14,7 +14,7 @@ You can access the page here: <br>
 <br>
 A preview of the page is shown in the image below:<br>
 <br>
-<img width="1153" alt="image" src="https://github.com/jessislearning/product-landing-page/assets/161026755/c5e3b5cf-2ef8-4ee7-917d-b38e7013152c">
+<img width="1195" alt="image" src="https://github.com/jessislearning/product-landing-page/assets/161026755/b17d59a2-1b29-47a7-a6e9-0d10876ee958">
 <br>
 <hr>
 <h1>🙏🏼 Book the actual property, you can check it out here:</h1>
